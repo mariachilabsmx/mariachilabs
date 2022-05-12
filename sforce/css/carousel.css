@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+    #servicios .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    #servicios .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+#servicios .carousel-inner .carousel-item.active,
+#servicios .carousel-inner .carousel-item-next,
+#servicios .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    #servicios .carousel-inner .carousel-item-right.active,
+    #servicios .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    #servicios .carousel-inner .carousel-item-left.active, 
+    #servicios .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+#servicios .carousel-inner .carousel-item-right,
+#servicios .carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+@media (max-width: 768px) {
+    #nuestros-clientes .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    #nuestros-clientes .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+
+
+#nuestros-clientes .carousel-inner .carousel-item.active,
+#nuestros-clientes .carousel-inner .carousel-item-next,
+#nuestros-clientes .carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    #nuestros-clientes .carousel-inner .carousel-item-right.active,
+    #nuestros-clientes .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    #nuestros-clientes .carousel-inner .carousel-item-left.active, 
+    #nuestros-clientes .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+#nuestros-clientes .carousel-inner .carousel-item-right,
+#nuestros-clientes .carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
