@@ -1,0 +1,196 @@
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    }
+
+.body{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    }
+
+header{
+    display:flex;
+    justify-content: center;
+    
+
+
+
+    }
+.logo {
+    width: 70px;  
+}
+
+/* main {
+    background-color: #b1ee4f;
+   
+} */
+/* .text {
+    background-color: rgb(207, 83, 83);
+} */
+
+h1 , h5 { 
+    font-family: 'Bebas Neue', cursive;
+}
+.mein h1 {
+    font-size: 2.7rem;
+
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a h1 {
+    color:#bac1c5 ;
+}
+
+body {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+
+.fondo1 { 
+    background-color: #C6DFEE;
+    height: 200px;
+    position: relative;
+}
+
+
+.fondo { 
+    background-color: #C6DFEE;
+    height: 650px;
+    top: 300px;
+    position: relative;
+}
+
+.image {
+    position: relative;
+}
+.hand {
+    right: 10%;
+    position: relative;
+}
+
+.cards-1 {
+    
+    
+    bottom: 100px;
+    position: relative;
+}
+
+
+.mein {
+    bottom: 1000px;
+    position: relative;
+}
+
+.puntos {
+    
+    height: 300px;
+    background-image:url(/assets/textura.png) ; 
+    right: 10vw;
+    bottom: 450px;
+    position: relative;
+}
+.card {
+    width: 13rem;
+    border-color: white;  
+    border-radius: 0;
+}
+
+.about {
+    background-color: #C6DFEE;
+    padding-right: 0px;
+    
+}
+.about h1 {
+    margin-top: 30%;
+   
+}
+
+.card-about {
+   padding-left: 15%;
+   background-color: white;
+   padding-top: 10%;
+   width:100%;
+    
+
+}
+
+
+@media (max-width: 425px) {
+
+    .fondo { 
+        background-color: #C6DFEE;
+        height: 1150px;
+    }
+
+    .puntos {
+    
+        height: 200px;
+        right: 40vw;
+        bottom: 770px;
+        
+    }
+
+    .fondo1 { 
+        background-color: #C6DFEE;
+        height: 150px;
+        top: 270px;
+        right: 10vh;
+        width: 18vh;
+        
+    }
+
+    .mein {
+        bottom: 1550px;
+        position: relative;
+    }
+
+    .cards-1 {
+        padding-top: 50px;
+        bottom: 0;
+        
+        
+    }
+    .hand {
+        right: 0;
+    }
+    .card-main {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card {
+        justify-content: center;
+        display: flex;
+        width: 18rem;
+        
+    }
+    .about h1 {
+        margin-top: 0;
+       
+    }
+
+    .about {
+        
+        padding-bottom: 60px;
+        
+    }
+    .card-about {
+       width:81.3%;
+         
+     
+     }
+
+
+}
+
