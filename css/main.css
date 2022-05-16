@@ -1,28 +1,21 @@
-
 * {
     box-sizing: border-box;
     margin:0;
     padding:0;
     }
-
 .body{
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
     height:100%;
-
     }
-
 header{
     display:flex;
     justify-content: center;
     }
-
-
 .logo {
     width: 70px;  
 }
-
 /* main {
     background-color: #b1ee4f;
    
@@ -30,82 +23,66 @@ header{
 /* .text {
     background-color: rgb(207, 83, 83);
 } */
-
 h1 , h5 { 
     font-family: 'Bebas Neue', cursive;
 }
 .mein h1 {
     font-size: 2.7rem;
-
 }
-
-
 p {
     font-family: 'Montserrat', sans-serif;
 }
-
 a h1 {
     color:#bac1c5 ;
 }
-
 body {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
 }
-
-
+.icon {
+    width: 50px;
+} 
 .fondo1 { 
     background-color: #C6DFEE;
     height: 200px;
     position: relative;
 }
-
-
 .fondo { 
-    background-color: #C6DFEE;
+    background-image: url("/images/rosa-mexicano.png");
+    background-position: bottom;
+    background-size: cover ;
     height: 600px;
     top: 300px;
     position: relative;
 }
-
 .image {
     position: relative;
 }
-
 .hand {
     right: 10%;
     position: relative;
 }
-
-.cards-1 {
-    
-    
+.cards-1 {   
     bottom: 100px;
     position: relative;
 }
-
 .solution {
     position: relative;
 }
 .solution-img {
     position: relative;
 }
-
-
+/* 
 .mein {
-    /* bottom: 1000px;
-    position: relative; */
-}
-
+    bottom: 1000px;
+    position: relative;
+} */
 .back {
-    
     width: 100%;
     max-width: 768px;
     position:absolute;
-    
-
 }
 
 .puntos {    
@@ -120,24 +97,22 @@ body {
     border-color: white;  
     border-radius: 0;
 }
-
+.navbar {
+    background-color: #ffffff
+}
 .about {
     background-color: #C6DFEE;
     padding-right: 0px;
-    position: relative;
-    
+    position: relative;   
 }
 .about h1 {
     margin-top: 30%; 
 }
-
-.card-about {
-   
+.card-about {  
    background-color: white;
    padding-top: 10%;
    width:50%;
 }
-
 .foot {
     width:100%;
     height: 100px;
@@ -145,61 +120,47 @@ body {
 }
 .branding {
     position: relative;
-
 }
-
 .branding-titulo {
     margin-top: 50px;
     background-color: white;
     height: 150px;
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
-
+.icon-about {
+    max-width: 60px;
+}
 .branding-back {
     max-width: 768px;
-
     position: absolute;
     width: 100%;
-
 }
-
 .fondo-3 { 
     margin-top: 20px;
     background-color: #C6DFEE;
     height: 550px;
     position: relative;
 }
-
-.contact {
-    
+.contact {   
     position: relative;
     margin-bottom: 150px;
 }
-
 .contact-img {
     position:absolute;   
 }
 .contact-img .container {
     margin: 0 auto;  
 }
-
 .contact-card {
     position: relative;
     top:50px;
     box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.356);
 }
-
 .foot p {
     margin-top: 50px;
-    text-align: center;
-    
+    text-align: center;   
 }
-
-
-
-
 .red {
     background-color: red;
 }
@@ -212,42 +173,29 @@ body {
 .yellow {
     background-color: yellow;
 }
-
-
 @media (max-width: 425px) {
-
     .fondo { 
         background-color: #C6DFEE;
         height: 1150px;
     }
-
     .puntos {
-    
         height: 200px;
         right: 40vw;
         bottom: 770px;
-        
     }
-
     .fondo1 { 
         background-color: #C6DFEE;
         height: 150px;
         top: 270px;
         right: 10vh;
-        width: 18vh;
-        
+        width: 18vh;   
     }
-
-    .mein {
-       
+    .mein {  
         position: relative;
     }
-
     .cards-1 {
         padding-top: 50px;
-        bottom: 0;
-        
-        
+        bottom: 0;   
     }
     .hand {
         right: 0;
@@ -255,35 +203,24 @@ body {
     .card-main {
         display: flex;
         justify-content: center;
-        
     }
     .card {
         justify-content: center;
         display: flex;
         width: 18rem;
-        
     }
     .about h1 {
         margin-top: 0;
-       
     }
-
-    .about {
-        
+    .about {   
         padding-bottom: 60px;
-        
     }
     .card-about {
         padding-top: 0px;
-       margin-top: 20px;
-       margin-left: 15px;
-       
-       padding-left: 30px;
-       width:90%;
+        margin-top: 20px;
+        margin-left: 15px;
+        padding-left: 30px;
+        width:90%;
      }
-
-     
-
-
 }
 
