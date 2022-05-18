@@ -5,7 +5,7 @@
 }
 
 body {
-    /* max-width: 768px; */
+    max-width: 1024px;
     /* width: auto; */
     margin-left: auto;
     margin-right: auto;
@@ -83,22 +83,27 @@ a h1 {
   position: absolute;
 }
 
-.puntos {
+.polka-dot {
   height: 300px;
   background-image: url(../img/textura.png);
+  background-image: radial-gradient(rgb(97, 96, 96) 10%, transparent 11%),
+  radial-gradient(rgb(97, 96, 96)  10%, transparent 11%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+  background-repeat: repeat;
   right: 10vw;
-  bottom: 550px;
+  bottom: 470px;
   position: relative;
 }
 .polka-dot {
     /* width: 240px;
     height: 240px; */
     /* background-color: #000; */
-    background-image: radial-gradient(#000 10%, transparent 11%),
+    /* background-image: radial-gradient(#000 10%, transparent 11%),
       radial-gradient(#000 10%, transparent 11%);
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
-    background-repeat: repeat;
+    background-repeat: repeat; */
   }
 .card {
   width: 13rem;
@@ -132,7 +137,8 @@ a h1 {
 .branding-titulo {
   margin-top: 50px;
   background-color: white;
-  height: 150px;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.08);
+  height: 170px;
   display: flex;
   align-items: center;
 }
@@ -231,3 +237,24 @@ a h1 {
     width: 90%;
   }
 }
+
+@media (min-width: 1024px) {
+
+  .fondo {
+    top: 600px;
+  }
+
+  .polka-dot {
+    bottom: 400px;
+  }
+
+  .card-about {  
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .fondo-3 { 
+    height: 770px;
+  }
+
+ }
