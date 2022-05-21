@@ -5,16 +5,13 @@
 }
 
 body {
-    max-width: 1024px;
+    max-width: 1440px;
     /* width: auto; */
     margin-left: auto;
     margin-right: auto;
     padding: 0;
   }
-header {
-  display: flex;
-  justify-content: center;
-}
+
 .logo {
   width: 70px;
 }
@@ -25,8 +22,7 @@ header {
 /* .text {
     background-color: rgb(207, 83, 83);
 } */
-h1,
-h5 {
+h1,h5 {
   font-family: "Bebas Neue", cursive;
 }
 .mein h1 {
